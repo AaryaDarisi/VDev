@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="navbar">
+        <!-- <img src="VITLogoEmblem.png" alt="logo" class="logo"> -->
+    </div>
+    <div class="headtxt">
+        <h1 class="title">Submissions</h1>
+    </div>
+    <%let i=1%>
+    <div class="table">
+        <table>
+            <tr>
+                <th>S.No</th>
+                <th>Student ID</th>
+                <th>Score</th>
+            </tr>
+            <%for(let student of answers) {%>
+                <tr>
+                    <td><%=i%></td>
+                    <td><a href="http://localhost:8888/view/<%=student.id%>/<%=id%>"><%=student.id%></a></td>
+                    <%if(student.score=="") {%>
+                        <td>Null</td>
+                    <%}else {%>
+                        <td><%=student.score%></td>
+                    <%}%>
+                </tr>
+                <%i++%>
+            <%}%>
+        </table>
+    </div>
+</body>
+</html>

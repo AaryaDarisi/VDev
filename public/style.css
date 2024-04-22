@@ -1,0 +1,252 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar
+{
+    background-color: #307fca;
+    width: 1920px;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo
+{
+    margin: 5px;
+    height: 40x;
+    width: 40px;
+}
+
+.question
+{
+    margin: 10px;
+    font-size: larger;
+    font-weight: 500;
+}
+
+.txt
+{
+    margin-left: 20px;
+    background-color: black;
+    color: greenyellow;
+    font-size: large;
+    border-style: none;
+    padding: 5px;
+    height: 300px;
+}
+
+.title
+{
+    color: #0180FE;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.tagline
+{
+    color: darkgreen;
+}
+.title,.tagline
+{
+    text-align: center;
+}
+.submit
+{
+    margin-left: 5px;
+    height: 30px;
+    width: 80px;
+    background-color: green;
+    border-radius:8px ;
+    border-style: none;
+    font-size: 1rem;
+    margin-top: 2px;
+
+}
+
+.cancel
+{
+    margin-left: 5px;
+    height: 30px;
+    width: 80px;
+    background-color: red;
+    border-radius:8px ;
+    border-style: none;
+    font-size: 1rem;
+    margin-top: 2px;
+}
+
+.clear
+{
+    margin-left: 5px;
+    height: 30px;
+    width: 80px;
+    background-color: red;
+    border-radius:5px ;
+    border-style: none;
+    font-size: 1rem;
+    margin-top: 2px;
+}
+
+.preview
+{
+    margin-left: 20px;
+    height: 30px;
+    width: 80px;
+    background-color: orange;
+    border-radius:8px ;
+    border-style: none;
+    font-size: 1rem;
+    margin-top: 2px;
+}
+
+.result
+{
+    margin: 20px;
+    border: 1px solid black;
+    height: 600px;
+    width: 98%;
+}
+
+.output
+{
+    /* display: none; */
+    margin: 20px;
+}
+
+.inactive
+{
+    display: none;
+}
+
+.bts
+{
+    display: flex;
+}
+
+.table
+{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+table,th,td,tr
+{
+    border-collapse: collapse;
+    border: 0.5px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+fieldset
+{
+    width: max-content;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.contains
+{
+    display: flex;
+    justify-content: center;
+    align-items: 50%;
+}
+
+.username,.password
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+
+.boundary
+{
+    border: 1px solid #DEDFDE;
+    border-radius: 2px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    margin-top: 80px;
+}
+
+.login
+{
+    padding: 30px;
+}
+
+.input_box
+{
+    height: 20px;
+    width: 300px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login_button
+{
+    color: white;
+    border-radius: 2px;
+    width: 300px;
+}
+
+.invalid
+{
+    background-color: #F9D7DB;
+    padding: 10px;
+    border-radius: 2px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #983F25;
+    display: none;
+}
+
+.outer_most
+{
+    /* display: block; */
+    text-align: center;
+}
+
+.ques
+{
+    font-size: larger;
+    font-weight: 900;
+}
+
+.has
+{
+    padding: 20px;
+}
+
+.cartoon
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box
+{
+    width: 200px;
+    height: 150px;
+    /* border: 1px solid black; */
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    font-size: large;
+    background-color: #54a9fe;
+    color: white;
+}
+
+.box:hover
+{
+    cursor: pointer;
+}
+.box:active
+{
+    background-color: #3898f8;
+}
+

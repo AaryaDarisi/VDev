@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="navbar">
+        <img src="VITLogoEmblem.png" alt="logo" class="logo">
+    </div>
+    <div class="headtxt">
+        <h1 class="title">Final Assesment Test</h1>
+        <h3 class="tagline">All the Best!!</h3>
+    </div>
+    <div class="ques">
+        <p class="question">Q. <%=question%></p>
+    </div>
+    <form action="/submit/<%=id%>" method="post" id="core">
+        <textarea class="txt" name="code" id="code" cols="50" rows="50" placeholder="//your HTML goes here" onkeydown="if(event.keyCode===9){var v=this.value,s=this.selectionStart,e=this.selectionEnd;this.value=v.substring(0, s)+'\t'+v.substring(e);this.selectionStart=this.selectionEnd=s+1;return false;}">h1 welcome /h1</textarea>
+        <textarea class="css txt" name="code2" id="code" cols="50" rows="50" placeholder="//your CSS goes here" onkeydown="if(event.keyCode===9){var v=this.value,s=this.selectionStart,e=this.selectionEnd;this.value=v.substring(0, s)+'\t'+v.substring(e);this.selectionStart=this.selectionEnd=s+1;return false;}">h1{background-color=red}</textarea>
+        <textarea class="js txt" name="code3" id="code" cols="50" rows="50" placeholder="//your JS goes here" onkeydown="if(event.keyCode===9){var v=this.value,s=this.selectionStart,e=this.selectionEnd;this.value=v.substring(0, s)+'\t'+v.substring(e);this.selectionStart=this.selectionEnd=s+1;return false;}">asfdsadf</textarea>
+    </form>
+    <br>
+    <div class="bts">
+        <button class="preview" onclick="preview()">Preview</button>
+        <button form="core" type="submit" class="submit">Submit</button>
+        <button class="clear" onclick="vanish()">Clear</button>
+    </div>
+    
+    <div class="inactive">
+        <p class="output">Output</p>
+        <iframe class="result"></iframe>
+    </div>
+    
+    <script src="/app.js"></script>
+</body>
+</html>
